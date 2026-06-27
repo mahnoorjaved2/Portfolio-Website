@@ -16,11 +16,16 @@
       <title>Responsive portfolio website Mah Noor</title>
    </head>
    <body>
+
+      <div id="loader">
+   <div class="spinner"></div>
+</div>
+
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
          <nav class="nav container">
             <a href="#" class="nav__logo">Mah Noor</a>
-
+           <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
             <div class="nav__menu" id="nav-menu">
                <ul class="nav__list">
                   <li>
@@ -34,6 +39,10 @@
                   <li>
                      <a href="#projects" class="nav__link">Projects</a>
                   </li>
+
+                  <li>
+   <a href="#certifications" class="nav__link">Certifications</a>
+</li>
 
                   <li>
                      <a href="#resume" class="nav__link">Resume</a>
@@ -64,7 +73,7 @@
             <div class="home__container container grid">
                <div class="home__content">
                   <div class="home__image">  
-                     <img src="assets/img/home-perfil.png" alt="image" class="home__img">
+                     <img src="assets/img/b2.jpg" alt="image" class="home__img">
                   </div>
                   
                   <div class="home__social">
@@ -90,7 +99,8 @@
                   <h1 class="home__title">Mahnoor Javed</h1>
 
                   <p class="home__description">
-                    I'm a web developer specializing in creating responsive and user-friendly websites. I have a passion for coding and design, and I strive to create beautiful and functional websites that meet the needs of my clients.
+                     — Computer Science student passionate about front-end development, AI, and design. I build responsive websites and digital experiences that combine creativity with functionality.
+
                   </p>
 
                   <div class="home__buttons">
@@ -101,6 +111,29 @@
             </div>
          </section>
 
+
+         <!--====== STAT SECTION
+
+         <section class="stats section">
+   <div class="stats__container container grid">
+      <div class="stats__card">
+         <h2>3+</h2>
+         <p>Projects Completed</p>
+      </div>
+
+      <div class="stats__card">
+         <h2>8+</h2>
+         <p>Technologies</p>
+      </div>
+
+      <div class="stats__card">
+         <h2>6+</h2>
+         <p>Certifications</p>
+      </div>
+   </div>
+</section> 
+ =======-->
+
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
             <div class="about__container container grid">
@@ -110,8 +143,9 @@
                      <h2 class="section__title">About Me</h2>
 
                      <p class="about__description">
-                        I'm a web developer specializing in creating responsive and user-friendly websites. I have a passion for coding and design, and I strive to create beautiful and functional websites that meet the needs of my clients.
-                     </p>
+I am a Computer Science student passionate about building modern digital experiences through development and design.
+</p>
+
 
                      <a href="#contact" class="button button__ghost">Contact Me</a>
                   </div>
@@ -140,29 +174,34 @@
 
                         <li class="about__item">
                         
-                           <span>React</span>
+                           <span>C++</span>
                         </li>
 
                         <li class="about__item">
                            
-                           <span>Node.js</span>
+                           <span>Python</span>
                         </li>
 
                         <li class="about__item">
                            
-                           <span>Express.js</span>
+                           <span>Canva</span>
                         </li>
 
                         <li class="about__item">
                            
-                           <span>MongoDB</span>
+                           <span>DaVinci Resolve</span>
+                        </li>
+
+                        <li class="about__item">
+                           
+                           <span>Capcut</span>
                         </li>
                      </ul>
                   </div>
                </div>
 
                <div class="about__image">
-                  <img src="assets/img/about-perfil.png" alt="image" class="about__img">
+                  <img src="assets/img/b1.jpg" alt="image" class="about__img">
                </div>
             </div>
          </section>
@@ -173,78 +212,115 @@
 
             <div class="projects__container container grid">
                <article class="projects__card">
-                     <img src="assets/img/project-1.png" alt="image" class="projects__img">
+                     <img src="assets/img/SKIN-CARE.png" alt="image" class="projects__img">
 
-                  <div class="projects__data">
-                     <h3 class="projects__title">Travel Website</h3>
+                     <div class="projects__data">
+                     <h3 class="projects__title">SkinCare Website</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                        Elegant skincare e-commerce website designed for a modern shopping experience.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://lumiere-beauty-store.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
 
                <article class="projects__card">
-                     <img src="assets/img/project-2.png" alt="image" class="projects__img">
+                     <img src="assets/img/FOOD.png" alt="image" class="projects__img">
 
                   <div class="projects__data">
-                     <h3 class="projects__title">GYM WEBSITE</h3>
+                     <h3 class="projects__title">FOOD WEBSITE</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                        Crafted to highlight delicious menus, special offers, and seamless online ordering.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://spicy-bite.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
 
                <article class="projects__card">
-                     <img src="assets/img/project-3.png" alt="image" class="projects__img">
+                     <img src="assets/img/P 3.png" alt="image" class="projects__img">
 
                   <div class="projects__data">
-                     <h3 class="projects__title">COFFEE WEBSITE</h3>
+                     <h3 class="projects__title">HealthCare WEBSITE</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                        To provide medical services information, appointment booking, and patient support.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://dr-javed-iqbal.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
 
                <article class="projects__card">
-                     <img src="assets/img/project-4.png" alt="image" class="projects__img">
+                     <img src="assets/img/PERSONAL BLOG.png" alt="image" class="projects__img">
 
                   <div class="projects__data">
-                     <h3 class="projects__title">BUSINESS WEBSITE</h3>
+                     <h3 class="projects__title">Personal Blog WEBSITE</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                        For sharing articles, insights, and ideas with a smooth reading experience.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://her-coded-journal.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
 
                <article class="projects__card">
-                     <img src="assets/img/project-5.png" alt="image" class="projects__img">
+                     <img src="assets/img/CREATIVE BOARD.png" alt="image" class="projects__img">
 
                   <div class="projects__data">
-                     <h3 class="projects__title">FOOD DESIGN</h3>
+                     <h3 class="projects__title">Creative Board DESIGN</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                        To help users brainstorm, organize ideas, and boost creativity through an intuitive visual workspace.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://creative-board-me.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
 
                <article class="projects__card">
-                     <img src="assets/img/project-6.png" alt="image" class="projects__img">
+                     <img src="assets/img/Portfolio.png" alt="image" class="projects__img">
 
                   <div class="projects__data">
-                     <h3 class="projects__title">A WEBSITE AND DESIGN</h3>
+                     <h3 class="projects__title">Portfolio Design</h3>
                      <p class="projects__description">
-                        This is a project description. It provides an overview of the project, its features, and its purpose.
+                     Crafted to present projects, technical skills, and creative experience in a professional and impactful way.
                      </p>
-                     <a href="#" target="_blank" class="button button_ghost">View Project</a>
+                     <a href="https://temp-pf.lovable.app" target="_blank" class="button button_ghost">View Project</a>
                   </div>
                </article>
             </div>   
          </section>
+
+
+
+
+
+         <!-- CREDIBILITY SECTION -->
+
+         <section class="certifications section" id="certifications">
+   <h2 class="section__title">Certifications</h2>
+
+   <div class="certifications__container container grid">
+   
+
+      <a href="assets/pdf/PYTHON BOOT CAMP.pdf" target="_blank" class="certification__link"> <div class="certification__card"> <h3 class="certification__title">Python</h3> <p class="certification__description"> Developed programming and problem-solving skills using Python. 
+
+      </p> 
+   </div> </a>
+
+      <a href="assets/pdf/Introduction_to_Modern_AI_certificate_bc230424330mno-vu-edu-pk_25343783-23a6-43d8-9176-988e1c9f04e4.pdf" target="_blank" class="certification__link"> <div class="certification__card"> <h3 class="certification__title">Introduction to AI</h3> <p class="certification__description"> Gained foundational knowledge of Artificial Intelligence concepts and applications. </p> </div> </a>
+
+      <a href="assets/pdf/CLAUDE 101.pdf" target="_blank" class="certification__link"> <div class="certification__card"> <h3 class="certification__title">Claude 101</h3> <p class="certification__description"> Learned AI workflows, prompt engineering, and effective AI tool usage. </p> </div> </a>
+
+      <a href="assets/pdf/AI FLUENCY ...pdf" target="_blank" class="certification__link"> <div class="certification__card"> <h3 class="certification__title">AI Fluency: Framework and Foundations</h3> <p class="certification__description"> Explored AI frameworks, core concepts, and foundational knowledge for AI systems. </p> </div> </a>
+
+      <a href="assets/pdf/INTRO TO NETWORKS.pdf" target="_blank" class="certification__link"> <div class="certification__card"> <h3 class="certification__title">CCNA: Introduction to Networks</h3> <p class="certification__description"> Built strong understanding of networking fundamentals, protocols, and communication. </p> </div> </a>
+
+      <a href="assets/pdf/WEB DEV Certificate.pdf" target="_blank" class="certification__link">
+   <div class="certification__card">
+      <h3 class="certification__title">Web Development</h3>
+      <p class="certification__description">
+         Learned the fundamentals of building responsive and interactive websites.
+      </p>
+   </div>
+</a>
+
+   </div>
+</section>
 
          <!--==================== RESUME ====================-->
          <section class="resume section" id="resume">
@@ -259,41 +335,42 @@
 
                   <div class="resume__list grid">
                      <div class="resume__data">
-                        <h3 class="resume__title" > Frontend Developer </h3>
+                        <h3 class="resume__title" > Deloitte Australia's Data Analytics </h3>
 
                         <div class="resume__info">
-                           <address> Nebula Tech </address>
-                           <address> 2024 - Present </address>
+                           <address> Forage </address>
+                           <address> 2026 </address>
+                        
+                        </div>
+
+                        <p class="resume__description"> Created a data dashboard using Tableau and used Excel to classify data and draw business conclusions. </p>
+      
+                     </div>
+
+                     <div class="resume__data">
+                        <h3 class="resume__title" > Wells Fargo's Software Engineering </h3>
+
+                        <div class="resume__info">
+                           <address> Forage </address>
+                           <address> 2026 </address>
+                        
+                        </div>
+
+                        <p class="resume__description"> Drafted a visual representation of the data as an entity relationship diagram (ERD) and used the IntelliJ developer application to implement the ERD and published it  to 
+GitHub   </p>
+      
+                     </div>
+
+                     <div class="resume__data">
+                        <h3 class="resume__title" > Front-End Web Developer </h3>
+
+                        <div class="resume__info">
+                           <address> Peronal Project </address>
+                           <address> 2026 </address>
                         
                         </div>
 
                         <p class="resume__description"> Building responsive and user-friendly web applications using HTML, CSS, and JavaScript. </p>
-      
-                     </div>
-
-                     <div class="resume__data">
-                        <h3 class="resume__title" > Web Designer </h3>
-
-                        <div class="resume__info">
-                           <address> Creative Solutions </address>
-                           <address> 2022 - 2024 </address>
-                        
-                        </div>
-
-                        <p class="resume__description"> Designing visually appealing and user-friendly interfaces for web and mobile applications. </p>
-      
-                     </div>
-
-                     <div class="resume__data">
-                        <h3 class="resume__title" > Visual Designer </h3>
-
-                        <div class="resume__info">
-                           <address> Creative Solutions </address>
-                           <address> 2020 - 2022 </address>
-                        
-                        </div>
-
-                        <p class="resume__description"> Creating visual concepts and designs for various media and platforms.  </p>
       
                      </div>
                   </div>
@@ -307,7 +384,7 @@
 
                   <div class="resume__list grid">
                      <div class="resume__data">
-                        <h3 class="resume__title" > Bachelor of Science in Computer Science </h3>
+                        <h3 class="resume__title" > BS Computer Science </h3>
 
                         <div class="resume__info">
                            <address> Virtual University </address>
@@ -320,11 +397,11 @@
                      </div>
 
                      <div class="resume__data">
-                        <h3 class="resume__title" > High School Diploma </h3>
+                        <h3 class="resume__title" > FSc </h3>
 
                         <div class="resume__info">
-                           <address> The Peace School </address>
-                           <address> 2016 - 2020 </address>
+                           <address> The Peace College Nowshera </address>
+                           <address> 2021 - 2023 </address>
                         
                         </div>
 
@@ -332,12 +409,14 @@
       
                      </div>
 
+
+
                      <div class="resume__data">
-                        <h3 class="resume__title" > Certificate in Web Development </h3>
+                        <h3 class="resume__title" > Web Development </h3>
 
                         <div class="resume__info">
-                           <address> Udemy </address>
-                           <address> 2016 - 2020 </address>
+                           <address> Udemy [Instructor: Dr. Angela Yu]</address>
+                           <address> 2024 </address>
                         
                         </div>
 
@@ -434,7 +513,7 @@
          </div>
 
          <span class="footer__copy">
-            &#169; All Rights Reserved
+            &#169; 2026 Mah Noor. All Rights Reserved.
          </span>
       </footer>
 

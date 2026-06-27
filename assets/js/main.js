@@ -29,7 +29,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== HOME TYPED JS ===============*/
 const typedHome = new Typed('#home-typed', {
-    strings: ['Web Developer', 'Front-End Developer', 'Graphic Designer', 'Video Editor'],
+    strings: ['Web Developer', 'UI | UX Designer', 'Front-End Developer', 'Graphic Designer', 'Video Editor'],
     typeSpeed: 80,
     backSpeed: 40,
     backDelay: 2000,
@@ -94,7 +94,7 @@ const scrollActive = () =>{
         const sectionHeight = current.offsetHeight,
             sectionTop = current.offsetTop - 58,
             sectionId = current.getAttribute('id'),
-            sectionClass = document.querySelector('.nav__menu a[href=' + sectionId + ']')
+            sectionClass = document.querySelector('.nav__menu a[href="#' + sectionId + '"]')
 
         if(scrollDown > sectionTop && scrollDown <=  sectionTop + sectionHeight){
             sectionClass.classList.add('active-link')
@@ -119,3 +119,17 @@ sr.reveal('.about__content, .contact__content', {origin: 'bottom'})
 sr.reveal('.about__image, .contact__form', {delay: 300})
 
 sr.reveal('.projects__card', {interval: 100})
+
+
+
+window.addEventListener('load', () => {
+   document.getElementById('loader').style.display = 'none'
+})
+
+
+/* const themeButton = document.getElementById('theme-button')
+const body = document.body
+
+themeButton.addEventListener('click', () => {
+   body.classList.toggle('light-theme')
+}) */
